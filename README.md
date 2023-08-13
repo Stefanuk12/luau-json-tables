@@ -12,3 +12,4 @@ You can find the Lua module [here](./module.lua) which allows you to serialise a
 
 - These models are not extensive and do not contain all of the impls
 - While it uses JSON as the "middleman", support for other file formats could be added (like binary formats).
+- A proper binding system can be found [here](https://github.com/roblox-rs), this is meant to be more of a lightweight solution.
