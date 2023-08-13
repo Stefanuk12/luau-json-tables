@@ -1,0 +1,19 @@
+[package]
+name = "luau-json-tables"
+authors = ["Stefanuk12 (stefanukpadd@gmail.com)"]
+license = "MIT"
+description = "A JSON parser and serializer for Roblox's Luau tables."
+repository = "https://github.com/Stefanuk12/luau-json-tables"
+homepage = "https://github.com/Stefanuk12/luau-json-tables"
+version = "0.1.0"
+edition = "2021"
+keywords = ["luau", "roblox", "json", "table", "tables"]
+categories = ["data-structures", "parsing"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0.183", features = ["derive"] }
+
+[dev-dependencies]
+serde_json = "1.0.104"
